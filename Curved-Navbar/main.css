@@ -1,0 +1,89 @@
+body {
+    margin: 1.5em;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.topnav {
+    background-color: black;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.topnav a.left {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 1vh;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.topnav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 1vh;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.topnav a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+@media only screen and (min-width: 680px) {
+    body {
+        margin: 1.5em 5em;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+@media only screen and (min-width: 920px) {
+    a {
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+
+    .topnav {
+        background-color: black;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .topnav a.left {
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 2vh;
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+
+    .topnav a {
+        float: right;
+        color: white;
+        text-align: center;
+        padding: 2vh;
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+
+
+    .topnav a:hover {
+        background-color: yellow;
+        color: black;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .wrapper {
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
