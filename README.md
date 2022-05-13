@@ -9,9 +9,8 @@
 
 - Just Clone The Repository.
 
-- Go To Your Editor And Left Click On `index.html` file and click `copy path` (Either In `Normal-NavBar` Or In `Curved-NavBar`).
+- Go To Your Editor And Left Click On `index.html` file And Open It In Live Server.
 
-- Then paste the link in your browser and hit enter.
 
 <h2>Discord Server</h2>
 
